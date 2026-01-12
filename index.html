@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhanush Surendran | Portfolio</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0b1220;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ===== HEADER / HERO ===== */
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #020617);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    /* PROFILE IMAGE */
+    .profile-pic {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid rgba(255, 255, 255, 0.25);
+      margin-bottom: 18px;
+    }
+
+    header h1 {
+      font-size: 44px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto 25px;
+      color: #c7d2fe;
+      font-size: 17px;
+    }
+
+    .header-links {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    .resume-btn {
+      display: inline-block;
+      padding: 12px 26px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 999px;
+      font-weight: 600;
+    }
+
+    /* ===== SECTIONS ===== */
+    section {
+      max-width: 1100px;
+      margin: 80px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      border-left: 5px solid #38bdf8;
+      padding-left: 15px;
+    }
+
+    /* ===== GRID & CARDS ===== */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 26px;
+    }
+
+    .card {
+      background: #111827;
+      border-radius: 16px;
+      padding: 22px;
+      border: 1px solid #1f2937;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin: 0 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #cbd5f5;
+    }
+
+    .github {
+      font-size: 18px;
+      color: #94a3b8;
+    }
+
+    .github:hover { color: #38bdf8; }
+
+    .tech {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #020617;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <!-- 🔴 Replace profile.jpg with your photo -->
+  <img src="WhatsApp Image 2025-06-26 at 00.40.41_124dc290.jpg" alt="Dhanush Surendran" class="profile-pic">
+
+  <h1>Dhanush Surendran</h1>
+  <p>
+    Computer Science graduate with hands on experience in Data Analytics, Machine Learning, and Operations.
+    Focused on building data driven solutions and supporting real-world business workflows.
+  </p>
+
+  <div class="header-links">
+    <a href="mailto:dhanushsurendran09@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/dhanush-surendran-ba1a092a0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/DhAnUsH-S123" target="_blank"><i class="fa-brands fa-github"></i></a>
+  </div>
+
+  <a class="resume-btn" href="https://drive.google.com/file/d/1VhL0sYEsrFudxXsRrSjmlfAlsCnuJoK8/view?usp=drive_link" target="_blank">
+    View Resume
+  </a>
+</header>
+
+<!-- SKILLS -->
+<section>
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card"><h3>Programming & Data</h3><p>Python, Pandas, NumPy, Data Cleaning, EDA</p></div>
+    <div class="card"><h3>Analytics & BI</h3><p>SQL, Power BI, Tableau, Advanced Excel, KPI Reporting</p></div>
+    <div class="card"><h3>Machine Learning</h3><p>NLP, Time Series Forecasting, Regression Models</p></div>
+    <div class="card"><h3>Operations & Documentation</h3><p>Data Validation, SOPs, Process Documentation, Stakeholder Support</p></div>
+    <div class="card"><h3>Tools & Platforms</h3><p>Git, GitHub, AWS, Azure, Flask, FastAPI</p></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+  <h2>Experience</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Data Science & Machine Learning Intern</h3>
+      <p><strong>Oct 2024 – Jun 2025</strong></p>
+      <p>
+        Built and fine-tuned predictive models using Python and Scikit-learn, improving forecast accuracy by ~12%.
+        Created Power BI dashboards and automated reports, reducing manual effort by ~30%.
+      </p>
+      <div class="tech">Python · Pandas · Scikit-learn · Power BI</div>
+    </div>
+
+    <div class="card">
+      <h3>Data Analytics & Operations Intern – MedTourEasy</h3>
+      <p><strong>Jun 2025 – Nov 2025</strong></p>
+      <p>
+        Cleaned and validated 50,000+ healthcare records, automated data quality checks,
+        and documented SOPs for operational reporting.
+      </p>
+      <div class="tech">SQL · Python · Data Validation · Documentation</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Smart ATS – Resume & JD Matcher
+        <a class="github" href="https://github.com/DhAnUsH-S123/Smart-Resume-parser-and-job-description-match-predictor.git" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </h3>
+      <p>AI-powered resume–job description matcher using semantic similarity and NLP.</p>
+      <div class="tech">Python · Streamlit · NLP</div>
+    </div>
+
+    <div class="card">
+      <h3>Marketing Campaign Analytics (SQL)
+        <a class="github" href="https://github.com/DhAnUsH-S123/Marketing-session-SQL-.git" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </h3>
+      <p>SQL analytics on customer journeys, CTR, conversion rates, and sentiment.</p>
+      <div class="tech">SQL · CTEs · Window Functions</div>
+    </div>
+
+    <div class="card">
+      <h3>Automatic Ticket Classification
+        <a class="github" href="https://github.com/DhAnUsH-S123/Automatic-Ticket-Classification.git" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </h3>
+      <p>NLP-based system to classify customer support tickets.</p>
+      <div class="tech">Python · NLP · Flask</div>
+    </div>
+
+    <div class="card">
+      <h3>Stock Price Prediction
+        <a class="github" href="https://github.com/DhAnUsH-S123/Stock-price-prediction.git" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </h3>
+      <p>Time-series based stock price forecasting API.</p>
+      <div class="tech">Python · FastAPI · ARIMA</div>
+    </div>
+
+    <div class="card">
+      <h3>Insurance Premium Prediction
+        <a class="github" href="https://github.com/DhAnUsH-S123/Insurance-premium-prediction.git" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </h3>
+      <p>Regression models to predict medical insurance costs.</p>
+      <div class="tech">Python · Pandas · Scikit-learn</div>
+    </div>
+
+    <div class="card">
+      <h3>Healthcare Operations Data Analysis</h3>
+      <p>Validated datasets and documented processes for operational reporting.</p>
+      <div class="tech">Python · SQL · Documentation</div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Dhanush Surendran · Portfolio
+</footer>
+
+</body>
+</html>
+
